@@ -1,0 +1,62 @@
+.btn{
+    border: 2px solid black;
+    background-color: purple;
+    height: 35px;
+}
+
+.newtask{
+    border: 2px solid black;
+    margin-left: 350px ;
+    background-color: aqua;
+    height: 30px;
+    width: 500px;
+}
+h1{
+    margin-left: 500px ;
+    margin-right:586px ;
+    background-color: rgb(130, 11, 242);
+    
+    
+}
+.tasklist{
+    border: 2px solid black;
+    margin-left: 350px;
+    margin-right: 390px;
+    background-color: blue;
+}
+
+.container{
+    background-color: bisque;
+    margin-top: 100px;
+}
+
+.navbar{
+    height: 40px;
+    background-color:rgb(25, 249, 25);
+    margin-bottom:40px ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.navelement{
+    margin-right: 15px;
+} 
+
+.navelement:link{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navlement:visited{
+    color: aliceblue;
+}
+.navelement:hover{
+    text-decoration: underline;
+    color:white;
+}
+.navelement:active{
+    text-decoration: underline;
+    color: aliceblue;
+}

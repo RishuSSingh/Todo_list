@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="navelement" href="#">home</a>
+        <a class="navelement" href="#">about</a>
+        <a class="navelement" href="#">contact</a>
+        <a class="navelement" href="#">team</a>
+     </nav>
+
+    <div class="container">
+        <h1>TODO LIST</h1>
+        <form action="/addtask" method="POST">
+            <input nanme = "newtask" type="text" class="newtask">
+            <button class="btn" type="submit"> ADD TASK</button>
+        </form>
+        <ul class="tasklist">
+
+        </ul>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
